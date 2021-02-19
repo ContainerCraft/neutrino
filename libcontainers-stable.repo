@@ -1,8 +1,7 @@
-[fedora-coreos-pool]
-name=Fedora coreos pool repository - $basearch
-baseurl=https://kojipkgs.fedoraproject.org/repos-dist/coreos-pool/latest/$basearch/
-enabled=1
-repo_gpgcheck=0
+[devel_kubic_libcontainers_stable]
+name=Stable Releases of Upstream github.com/containers packages (CentOS_8_Stream)
 type=rpm-md
+baseurl=https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/CentOS_8_Stream/
 gpgcheck=1
-skip_if_unavailable=True
+gpgkey=https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/CentOS_8_Stream/repodata/repomd.xml.key
+enabled=1

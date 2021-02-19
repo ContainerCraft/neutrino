@@ -9,4 +9,4 @@ packages:
 
 repos:
 - kubernetes
-- cri-o-stable
+- devel_kubic_libcontainers_stable_cri-o_1.20
