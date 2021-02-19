@@ -1,0 +1,12 @@
+ref: neutrino/${basearch}/coreos/stable
+include: fedora-coreos-config/manifest.yaml
+
+packages:
+- cri-o
+- kubeadm
+- kubelet
+- kubectl
+
+repos:
+- kubernetes
+- cri-o-stable
