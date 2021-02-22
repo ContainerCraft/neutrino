@@ -14,3 +14,6 @@
   - https://www.matthiaspreu.com/posts/fedora-coreos-first-steps
   - https://github.com/coreos/fcct/blob/master/docs/getting-started.md
   - https://github.com/coreos/fcct/blob/master/docs/examples.md 
+
+#### Neutrino+pi
+  - https://fwmotion.com/blog/operating-systems/2020-09-09-coreos-on-raspi4/
