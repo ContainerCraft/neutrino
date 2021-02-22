@@ -1,4 +1,4 @@
-# Neutrino / Akasha / Mana / Aether
+# Neutrino
 a viable particle of bits permeating all compute
 
 ## Objective:
