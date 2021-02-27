@@ -7,5 +7,4 @@ buildah bud \
   --security-opt seccomp=unconfined \
   --cap-add SYS_ADMIN \
   --cap-add CAP_NET_ADMIN \
-  --isolation chroot \
   -t awesometest:latest

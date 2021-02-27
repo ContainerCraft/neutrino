@@ -1,5 +1,6 @@
 FROM quay.io/coreos-assembler/coreos-assembler:latest AS build-stage
 
+USER root
 # Setup Directories and stage scripts
 WORKDIR /srv
 
