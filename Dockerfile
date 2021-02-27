@@ -18,7 +18,3 @@ RUN cosa init https://github.com/coreos/fedora-coreos-config.git
 RUN cosa fetch
 
 RUN cosa build
-
-
-#FROM scratch AS export-stage
-COPY --from=build-stage /build/builds/latest/*/fedora-coreos-*.qcow2 .
