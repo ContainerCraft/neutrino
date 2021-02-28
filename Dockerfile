@@ -8,7 +8,7 @@ COPY kubernetes-upstream.repo /etc/yum.repos.d/kubernetes.repo
 
 RUN dnf reposync --download-metadata -n --repoid=kubernetes-upstream -y
 
-RUN sed  "s/<timestamp>.*<\/timestamp>/<timestamp>$(date +%s)<\/timestamp>/g" kubernetes-upstream/repodata/repomd.xml
+RUN sed -i "s/<timestamp>.*<\/timestamp>/<timestamp>$(date +%s)<\/timestamp>/g" kubernetes-upstream/repodata/repomd.xml
 
 COPY * /srv/src/config/
 
