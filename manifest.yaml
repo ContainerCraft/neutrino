@@ -4,8 +4,8 @@ include: fedora-coreos-config/manifest.yaml
 packages:
 - cri-o
 - kubeadm
-- kubelet
 - kubectl
+- kubelet
 
 repos:
 - kubernetes

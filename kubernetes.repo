@@ -1,6 +1,6 @@
 [kubernetes]
 name=Kubernetes
-baseurl=file:///srv/kubernetes
+baseurl=file:///srv/kubernetes-upstream
 enabled=1
 gpgcheck=0
 repo_gpgcheck=0
