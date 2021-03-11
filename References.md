@@ -17,3 +17,6 @@
 
 #### Neutrino+pi
   - https://fwmotion.com/blog/operating-systems/2020-09-09-coreos-on-raspi4/
+
+#### Podman-alt image store
+https://ahelpme.com/software/podman/change-the-location-of-container-storage-in-podman-with-selinux-enabled/
